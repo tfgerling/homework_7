@@ -75,7 +75,7 @@ FROM film f
 		INNER JOIN rental r
 		ON i.inventory_id = r.inventory_id
 --using where clause to select those returned from May 15, 2005 to May 31, 2005
-	WHERE return_date BETWEEN '2005-5-15' AND '2005-05-31';
+	WHERE return_date BETWEEN '2005-5-15' AND '2005-06-01';
 	
 --6.	Write a subquery to show which movies are rented below the average price for all movies. 
 -- From the film table, used a subquery in both the select and where clauses - in the select to show what the 
